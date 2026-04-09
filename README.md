@@ -1,3 +1,4 @@
+
 # 🚀 Hackatón 0 – CS2031
 
 ¡Bienvenidos! 🎉
@@ -23,7 +24,10 @@ Los equipos son de **3 integrantes fijos**. Cada uno tendrá un rol claro:
 - Otros que lideren 🧭
 - Y otros que ejecuten rápido ⚡
 
+
 Coordínense bien antes de empezar a pushear cambios. El repositorio incluye **GitHub Actions** que corren automáticamente: una valida el HTML y los enlaces en cada PR, y otra despliega la página en GitHub Pages en cada push a `main`.
+Esta vez el proyecto tiene **más conflictos intencionales** que la vez anterior. Coordínense bien antes de empezar a pushear cambios.
+
 
 ---
 
@@ -38,6 +42,7 @@ Un TA (que no diremos quién 🤫) volvió a meter mano en el repositorio y romp
 ## 👑 Organización del equipo
 
 - Elijan un **líder de equipo** que cree el repositorio a partir de la plantilla `cs2031-2026-1-hackathon-0` (asegurándose de incluir **todas las ramas**).
+
 - El líder da acceso de colaborador a los otros 2 integrantes.
 - Cada integrante trabaja en **su propia rama** (`feat/member-nombre`) y abre un **PR** para que el líder lo revise y acepte.
 - Los conflictos se resuelven en equipo, **no individualmente**.
@@ -118,6 +123,7 @@ Los 3 links del menú apuntan a IDs incorrectos:
 
 ---
 
+
 ### ✅ Publicado en GitHub Pages
 
 El deploy es **automático** gracias al workflow `.github/workflows/deploy.yml`. Cada push a `main` despliega la página sin configuración manual.
@@ -128,6 +134,7 @@ Solo necesitan habilitarlo una vez en la configuración del repositorio:
 3. A partir de ahí, cada merge a `main` despliega automáticamente
 
 La URL del sitio aparece en la pestaña **Environments → github-pages** del repositorio.
+
 
 ---
 
@@ -188,6 +195,7 @@ La tarea del equipo es **resolver esto manualmente**, eliminando los marcadores 
 - Verifica que todos los `href="#..."` del HTML apunten a un `id` que realmente existe — el PR **no podrá mergearse** si el navbar tiene links rotos
 
 **`deploy.yml`** despliega automáticamente la página en GitHub Pages tras cada merge a `main` (TODO).
+
 
 ---
 
