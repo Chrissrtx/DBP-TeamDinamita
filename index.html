@@ -29,12 +29,15 @@
 
             <ul class="nav__list">
               <li class="nav__item">
+                <!-- BUG #1: este enlace apunta a la seccion equivocada, deberia ser #hero -->
                 <a href="#hero" class="nav__link">Inicio</a>
               </li>
               <li class="nav__item">
+                <!-- BUG #2: este enlace apunta a la seccion equivocada, deberia ser #about -->
                 <a href="#about" class="nav__link">Acerca de</a>
               </li>
               <li class="nav__item">
+                <!-- BUG #3: este enlace apunta a la seccion equivocada, deberia ser #team -->
                 <a href="#team" class="nav__link">Equipo</a>
               </li>
             </ul>
@@ -51,8 +54,14 @@
                 Explorando el mundo de los algoritmos y la eficiencia computacional
               </p>
               <div class="hero__actions">
-                <a href="#about" class="hero__button hero__button--primary">Aprender más</a>
-                <a href="#team" class="hero__button hero__button--secondary">Conocer al equipo</a>
+                <a href="#about" class="hero__button hero__button--primary"
+                  >Aprender más</a
+                >
+                <a
+                  href="#team"
+                  class="hero__button hero__button--secondary"
+                  >Conocer al equipo</a
+                >
               </div>
             </div>
             <div class="hero__visual">
@@ -116,28 +125,106 @@
           <div class="team__container">
             <div class="team__header">
               <h2 class="team__title">Nuestro Equipo</h2>
-              <p class="team__description">Las personas detrás de este proyecto</p>
+              <p class="team__description">
+                Las personas detrás de este proyecto
+              </p>
             </div>
 
             <div class="team__grid">
+              <!-- INTEGRANTE 1: Reemplaza con tus datos -->
               <div class="team-card">
                 <div class="team-card__image">
+                  <!-- Aquí tu foto de perfil (URL de GitHub u otra imagen) -->
                   <img
                     src="https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt="Geremid Flores Alva"
+                    alt="Nombre Integrante 1"
                     class="team-card__photo"
                   />
                 </div>
                 <div class="team-card__content">
-                  <h3 class="team-card__name">Geremid Flores Alva</h3>
-                  <p class="team-card__role">Business Analytics</p>
+                  <!-- Aquí tu nombre completo -->
+                  <h3 class="team-card__name">Christian Estrada Fiestas</h3>
+                  <!-- Aquí tu especialidad o rol -->
+                  <p class="team-card__role">Ciencia de la Computacion</p>
                   <div class="team-card__social">
+                    <!-- Reemplaza # con tu URL de GitHub -->
+                    <a
+                      href="https://github.com/Chrissrtx"
+                      class="team-card__social-link team-card__social-link--github"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <!-- Reemplaza # con tu URL de LinkedIn -->
+                    <a
+                      href="www.linkedin.com/in/christian-estrada-fiestas"
+                      class="team-card__social-link team-card__social-link--linkedin"
+                    >
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="team__grid">
+              <!-- INTEGRANTE 2: Reemplaza con tus datos -->
+              <div class="team-card">
+                <div class="team-card__image">
+                  <!-- Aquí tu foto de perfil (URL de GitHub u otra imagen) -->
+                  <img
+                    src="https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Nombre Integrante 1"
+                    class="team-card__photo"
+                  />
+                </div>
+                <div class="team-card__content">
+                  <!-- Aquí tu nombre completo -->
+                  <h3 class="team-card__name">Osmar Vilchez Aguirre</h3>
+                  <!-- Aquí tu especialidad o rol -->
+                  <p class="team-card__role">Ciencia de la Computacion</p>
+                  <div class="team-card__social">
+                    <!-- Reemplaza # con tu URL de GitHub -->
+                    <a
+                      href="https://github.com/Osomar1705"
+                      class="team-card__social-link team-card__social-link--github"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <!-- Reemplaza # con tu URL de LinkedIn -->
+                    <a
+                      href="www.linkedin.com/in/osmar-vilchez-51212a205/"
+                      class="team-card__social-link team-card__social-link--linkedin"
+                    >
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="team__grid">
+              <!-- INTEGRANTE 3: Reemplaza con tus datos -->
+              <div class="team-card">
+                <div class="team-card__image">
+                  <!-- Aquí tu foto de perfil (URL de GitHub u otra imagen) -->
+                  <img
+                    src="https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Nombre Integrante 1"
+                    class="team-card__photo"
+                  />
+                </div>
+                <div class="team-card__content">
+                  <!-- Aquí tu nombre completo -->
+                  <h3 class="team-card__name">Geremid Flores</h3>
+                  <!-- Aquí tu especialidad o rol -->
+                  <p class="team-card__role">Business</p>
+                  <div class="team-card__social">
+                    <!-- Reemplaza # con tu URL de GitHub -->
                     <a
                       href="https://github.com/Geremid"
                       class="team-card__social-link team-card__social-link--github"
                     >
                       <i class="fab fa-github"></i>
                     </a>
+                    <!-- Reemplaza # con tu URL de LinkedIn -->
                     <a
                       href="https://www.linkedin.com/in/geremid-flores-alva-6b3363319/"
                       class="team-card__social-link team-card__social-link--linkedin"
